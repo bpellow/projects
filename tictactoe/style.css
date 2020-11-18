@@ -1,0 +1,50 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #EDEEE4
+}
+
+h1 {
+  text-align: center;
+  color: white;
+
+}
+
+canvas {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  width: 80%;
+  border-radius: 25px;
+  border-color: #BFD8BD;
+  border-style: solid;
+  border-width: bold;
+}
+
+button {
+  display: block;
+  background-color: #989ADF;
+  border: none;
+  color: black;
+  padding: 20px 32px;
+  font-family: 'Courier New';
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  margin: auto;
+  border-radius: 5px;
+}
+button:hover {
+   cursor: pointer;
+}
+
+#status {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Courier New';
+  font-size: 100px;
+  
+}
